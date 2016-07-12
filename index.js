@@ -11,7 +11,7 @@ var options = {
     url: 'http://jandan.net/ooxx/page-1',
     headers: {
         'User-Agent': ' Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
-    };
+    }
 };
 
 request(options, function (error, response, body) {
